@@ -1,0 +1,29 @@
+.firstrow ,.secondrow{
+    float: left;
+    width: 33.33%;
+    padding: 20px;
+}
+.resume{
+    float: left;
+    width: 50%;
+    padding: 20px;
+}
+.edufirstrow,.eduthirdrow{
+    float: left;
+    width: 50%;
+    padding: 20px;
+}
+.edusecondrow{
+    float: left;
+    width: 100%;
+    padding: 20px;
+}
+@media screen and (max-width:800px) {
+    .firstrow, .secondrow,.resume,.edufirstrow,.eduthirdrow,.edusecondrow{
+        width: 100%;
+        padding: 10px;
+    }
+    
+}
+
+
